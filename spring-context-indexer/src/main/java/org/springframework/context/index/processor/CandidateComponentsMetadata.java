@@ -36,17 +36,3 @@ class CandidateComponentsMetadata {
 	}
 
 
-	public void add(ItemMetadata item) {
-		this.items.add(item);
-	}
-
-	public List<ItemMetadata> getItems() {
-		return Collections.unmodifiableList(this.items);
-	}
-
-	@Override
-	public String toString() {
-		return "CandidateComponentsMetadata{" + "items=" + this.items + '}';
-	}
-
-}
